@@ -1,0 +1,475 @@
+HEADER    RIBOSOME                                07-AUG-01   1JQS              
+TITLE     FITTING OF L11 PROTEIN AND ELONGATION FACTOR G (DOMAIN G' AND V) IN   
+TITLE    2 THE CRYO-EM MAP OF E. COLI 70S RIBOSOME BOUND WITH EF-G AND GMPPCP, A
+TITLE    3 NONHYDROLYSABLE GTP ANALOG                                           
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: 50S RIBOSOMAL PROTEIN L11;                                 
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 OTHER_DETAILS: L11 FROM E. COLI 70S RIBOSOME MODELED BY CRYSTAL      
+COMPND   5 STRUCTURE OF L11 FROM THERMATOGOMA MARITIMA;                         
+COMPND   6 MOL_ID: 2;                                                           
+COMPND   7 MOLECULE: ELONGATION FACTOR G;                                       
+COMPND   8 CHAIN: B;                                                            
+COMPND   9 FRAGMENT: PART OF DOMAIN G';                                         
+COMPND  10 SYNONYM: EF-G; TRANSLATION ELONGATION FACTOR EF-G;                   
+COMPND  11 OTHER_DETAILS: EF-G FROM E. COLI 70S RIBOSOME MODELED BY CRYSTAL     
+COMPND  12 STRUCTURE OF EF-G FROM THERMUS THERMOPHILUS;                         
+COMPND  13 MOL_ID: 3;                                                           
+COMPND  14 MOLECULE: ELONGATION FACTOR G;                                       
+COMPND  15 CHAIN: C;                                                            
+COMPND  16 FRAGMENT: DOMAIN V;                                                  
+COMPND  17 SYNONYM: EF-G; TRANSLATION ELONGATION FACTOR EF-G;                   
+COMPND  18 OTHER_DETAILS: EF-G FROM E. COLI 70S RIBOSOME MODELED BY CRYSTAL     
+COMPND  19 STRUCTURE OF EF-G FROM THERMUS THERMOPHILUS                          
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                               
+SOURCE   3 ORGANISM_TAXID: 562;                                                 
+SOURCE   4 MOL_ID: 2;                                                           
+SOURCE   5 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                               
+SOURCE   6 ORGANISM_TAXID: 562;                                                 
+SOURCE   7 MOL_ID: 3;                                                           
+SOURCE   8 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                               
+SOURCE   9 ORGANISM_TAXID: 562                                                  
+KEYWDS    L11, EF-G, CRYO-EM, 70S E.COLI RIBOSOME, GTP STATE, RIBOSOME          
+EXPDTA    ELECTRON MICROSCOPY                                                   
+MDLTYP    CA ATOMS ONLY, CHAIN A, B, C                                          
+AUTHOR    R.K.AGRAWAL,J.LINDE,J.SEGUPTA,K.H.NIERHAUS,J.FRANK                    
+REVDAT   5   07-FEB-24 1JQS    1       REMARK                                   
+REVDAT   4   24-FEB-09 1JQS    1       VERSN                                    
+REVDAT   3   01-APR-03 1JQS    1       JRNL                                     
+REVDAT   2   14-JUN-02 1JQS    1       REMARK                                   
+REVDAT   1   07-SEP-01 1JQS    0                                                
+JRNL        AUTH   R.K.AGRAWAL,J.LINDE,J.SENGUPTA,K.H.NIERHAUS,J.FRANK          
+JRNL        TITL   LOCALIZATION OF L11 PROTEIN ON THE RIBOSOME AND ELUCIDATION  
+JRNL        TITL 2 OF ITS INVOLVEMENT IN EF-G-DEPENDENT TRANSLOCATION.          
+JRNL        REF    J.MOL.BIOL.                   V. 311   777 2001              
+JRNL        REFN                   ISSN 0022-2836                               
+JRNL        PMID   11518530                                                     
+JRNL        DOI    10.1006/JMBI.2001.4907                                       
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   B.T.WIMBERLY,R.GUYMON,J.P.MCCUTCHEON,S.W.WHITE,              
+REMARK   1  AUTH 2 V.RAMAKRISHNAN                                               
+REMARK   1  TITL   A DETAILED VIEW OF A RIBOSOMAL ACTIVE SITE: THE STRUCTURE OF 
+REMARK   1  TITL 2 THE L11-RNA COMPLEX                                          
+REMARK   1  REF    CELL(CAMBRIDGE,MASS.)         V.  97   491 1999              
+REMARK   1  REFN                   ISSN 0092-8674                               
+REMARK   1  DOI    10.1016/S0092-8674(00)80759-X                                
+REMARK   1 REFERENCE 2                                                          
+REMARK   1  AUTH   J.CZWORKOWSKI,J.WANG,T.A.STEITZ,P.B.MOORE                    
+REMARK   1  TITL   THE CRYSTAL STRUCTURE OF ELONGATION FACTOR G COMPLEXED WITH  
+REMARK   1  TITL 2 GDP, AT 2.7A RESOLUTION.                                     
+REMARK   1  REF    EMBO J.                       V.  13  3661 1994              
+REMARK   1  REFN                   ISSN 0261-4189                               
+REMARK   1 REFERENCE 3                                                          
+REMARK   1  AUTH   A.AEVARSSON,E.BRAZHNIKOV,M.GARBER,J.ZHELTONOSOVA,            
+REMARK   1  AUTH 2 Y.CHIRGADZE,S.AL-KARADAGHI,L.A.SVENSSON,A.LILJAS             
+REMARK   1  TITL   THREE-DIMENSIONAL STRUCTURE OF THE RIBOSOMAL TRANSLOCASE:    
+REMARK   1  TITL 2 ELONGATION FACTOR G FROM THERMUS THERMOPHILUS                
+REMARK   1  REF    EMBO J.                       V.  13  3669 1994              
+REMARK   1  REFN                   ISSN 0261-4189                               
+REMARK   1 REFERENCE 4                                                          
+REMARK   1  AUTH   M.LAURBERG,O.KRISTENSEN,K.MARTEMYANOV,A.T.GUDKOV,I.NAGAEV,   
+REMARK   1  AUTH 2 D.HUGHES,A.LILJAS                                            
+REMARK   1  TITL   STRUCTURE OF A MUTANT EF-G REVEALS DOMAIN III AND POSSIBLY   
+REMARK   1  TITL 2 THE FUSIDIC ACID BINDING SITE                                
+REMARK   1  REF    J.MOL.BIOL.                   V. 303   593 2000              
+REMARK   1  REFN                   ISSN 0022-2836                               
+REMARK   1  DOI    10.1006/JMBI.2000.4168                                       
+REMARK   1 REFERENCE 5                                                          
+REMARK   1  AUTH   R.K.AGRAWAL,A.B.HEAGLE,P.PENCZEK,R.A.GRASSUCCI,J.FRANK       
+REMARK   1  TITL   EF-G-DEPENDENT GTP HYDROLYSIS INDUCES TRANSLOCATION          
+REMARK   1  TITL 2 ACCOMPANIED BY LARGE CONFORMATIONAL CHANGES IN THE 70S       
+REMARK   1  TITL 3 RIBOSOME                                                     
+REMARK   1  REF    NAT.STRUCT.BIOL.              V.   6   643 1999              
+REMARK   1  REFN                   ISSN 1072-8368                               
+REMARK   1  DOI    10.1038/10695                                                
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.   18.00 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   SOFTWARE PACKAGES      : NULL                                      
+REMARK   3   RECONSTRUCTION SCHEMA  : NULL                                      
+REMARK   3                                                                      
+REMARK   3 EM MAP-MODEL FITTING AND REFINEMENT                                  
+REMARK   3   PDB ENTRY                    : NULL                                
+REMARK   3   REFINEMENT SPACE             : REAL                                
+REMARK   3   REFINEMENT PROTOCOL          : OTHER                               
+REMARK   3   REFINEMENT TARGET            : VISUAL AGREEMENT                    
+REMARK   3   OVERALL ANISOTROPIC B VALUE  : NULL                                
+REMARK   3                                                                      
+REMARK   3 FITTING PROCEDURE : REFINEMENT PROTOCOL--MANUAL DETAILS--THIS        
+REMARK   3  STRUCTURE WAS GENERATED BY FITTING THE X-RAY CRYSTAL STRUCTURE      
+REMARK   3  OF L11 AND EF-G INTO THE 70S E. COLI EF-G (GTP FORM) BOUND          
+REMARK   3  RIBOSOME ELECTRON MICROSCOPY MAP. L11 (LINKER REGION BETWEEN N      
+REMARK   3  AND C TERMINAL) AND EF-G POSITIONS OF DOMAINS G AND V WERE          
+REMARK   3  MODELED TO ACCOMMODATE THE CONFORMATIONAL CHANGES.                  
+REMARK   3  CONFORMATIONAL CHANGES OCCUR IN PROTEIN L11 AND EF-G DUE TO THE     
+REMARK   3  BINDING OF EF-G TO THE 70S RIBOSOME. THESE CHANGED CONFORMATIONS    
+REMARK   3  WERE MODELED BASED ON THE FITTING OF THE CRYSTAL COORDINATES TO     
+REMARK   3  THE LOW RESOLUTION RIBOSOME MAP (FACTOR-BOUND) AND ENERGY           
+REMARK   3  MINIMIZING THE FITTED STRUCTURES.                                   
+REMARK   3                                                                      
+REMARK   3 EM IMAGE RECONSTRUCTION STATISTICS                                   
+REMARK   3   NOMINAL PIXEL SIZE (ANGSTROMS)    : NULL                           
+REMARK   3   ACTUAL PIXEL SIZE  (ANGSTROMS)    : NULL                           
+REMARK   3   EFFECTIVE RESOLUTION (ANGSTROMS)  : 18.00                          
+REMARK   3   NUMBER OF PARTICLES               : 36113                          
+REMARK   3   CTF CORRECTION METHOD             : NULL                           
+REMARK   3                                                                      
+REMARK   3 EM RECONSTRUCTION MAGNIFICATION CALIBRATION: NULL                    
+REMARK   3                                                                      
+REMARK   3 OTHER DETAILS: NULL                                                  
+REMARK   4                                                                      
+REMARK   4 1JQS COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 04-SEP-01.                  
+REMARK 100 THE DEPOSITION ID IS D_1000014080.                                   
+REMARK 245                                                                      
+REMARK 245 EXPERIMENTAL DETAILS                                                 
+REMARK 245   RECONSTRUCTION METHOD          : SINGLE PARTICLE                   
+REMARK 245   SPECIMEN TYPE                  : VITREOUS ICE (CRYO EM)            
+REMARK 245                                                                      
+REMARK 245 ELECTRON MICROSCOPE SAMPLE                                           
+REMARK 245   SAMPLE TYPE                    : PARTICLE                          
+REMARK 245   PARTICLE TYPE                  : POINT                             
+REMARK 245   NAME OF SAMPLE                 : E. COLI 70S RIBOSOME BOUND WITH   
+REMARK 245                                    EF-G AND GMPPCP                   
+REMARK 245   SAMPLE CONCENTRATION (MG ML-1) : NULL                              
+REMARK 245   SAMPLE SUPPORT DETAILS         : NULL                              
+REMARK 245   SAMPLE VITRIFICATION DETAILS   : NULL                              
+REMARK 245   SAMPLE BUFFER                  : NULL                              
+REMARK 245   PH                             : NULL                              
+REMARK 245   SAMPLE DETAILS                 : NULL                              
+REMARK 245                                                                      
+REMARK 245 DATA ACQUISITION                                                     
+REMARK 245   DATE OF EXPERIMENT                : NULL                           
+REMARK 245   NUMBER OF MICROGRAPHS-IMAGES      : NULL                           
+REMARK 245   TEMPERATURE (KELVIN)              : NULL                           
+REMARK 245   MICROSCOPE MODEL                  : FEI/PHILIPS EM420              
+REMARK 245   DETECTOR TYPE                     : GENERIC FILM                   
+REMARK 245   MINIMUM DEFOCUS (NM)              : NULL                           
+REMARK 245   MAXIMUM DEFOCUS (NM)              : NULL                           
+REMARK 245   MINIMUM TILT ANGLE (DEGREES)      : NULL                           
+REMARK 245   MAXIMUM TILT ANGLE (DEGREES)      : NULL                           
+REMARK 245   NOMINAL CS                        : NULL                           
+REMARK 245   IMAGING MODE                      : BRIGHT FIELD                   
+REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 1000.00                        
+REMARK 245   ILLUMINATION MODE                 : FLOOD BEAM                     
+REMARK 245   NOMINAL MAGNIFICATION             : 52000                          
+REMARK 245   CALIBRATED MAGNIFICATION          : NULL                           
+REMARK 245   SOURCE                            : OTHER                          
+REMARK 245   ACCELERATION VOLTAGE (KV)         : NULL                           
+REMARK 245   IMAGING DETAILS                   : NULL                           
+REMARK 247                                                                      
+REMARK 247 ELECTRON MICROSCOPY                                                  
+REMARK 247  THE COORDINATES IN THIS ENTRY WERE GENERATED FROM ELECTRON          
+REMARK 247  MICROSCOPY DATA. PROTEIN DATA BANK CONVENTIONS REQUIRE              
+REMARK 247  THAT CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES           
+REMARK 247  ON THESE RECORDS ARE MEANINGLESS EXCEPT FOR THE CALCULATION         
+REMARK 247  OF THE STRUCTURE FACTORS.                                           
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: TRIMERIC                          
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C                               
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 465                                                                      
+REMARK 465 MISSING RESIDUES                                                     
+REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
+REMARK 465 EXPERIMENT. (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 465 IDENTIFIER; SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                
+REMARK 465                                                                      
+REMARK 465   M RES C SSSEQI                                                     
+REMARK 465     ALA A    -5                                                      
+REMARK 465     LYS A    -4                                                      
+REMARK 465     LYS A    -3                                                      
+REMARK 465     VAL A    -2                                                      
+REMARK 465     ALA A    -1                                                      
+REMARK 465     ALA A     0                                                      
+REMARK 900                                                                      
+REMARK 900 RELATED ENTRIES                                                      
+REMARK 900 RELATED ID: 1EG0   RELATED DB: PDB                                   
+REMARK 900 FITTING OF COMPONENTS WITH KNOWN STRUCTURE INTO AN 11.5A CRYO-EM     
+REMARK 900 MAP OF THE E.COLI 70S RIBOSOME                                       
+DBREF  1JQS A   -5   133  UNP    P29395   RL11_THEMA       1    139             
+DBREF  1JQS B  220   251  UNP    P13551   EFG_THETH      220    251             
+DBREF  1JQS C  606   673  UNP    P13551   EFG_THETH      606    673             
+SEQRES   1 A  139  ALA LYS LYS VAL ALA ALA GLN ILE LYS LEU GLN LEU PRO          
+SEQRES   2 A  139  ALA GLY LYS ALA THR PRO ALA PRO PRO VAL GLY PRO ALA          
+SEQRES   3 A  139  LEU GLY GLN HIS GLY VAL ASN ILE MET GLU PHE CYS LYS          
+SEQRES   4 A  139  ARG PHE ASN ALA GLU THR ALA ASP LYS ALA GLY MET ILE          
+SEQRES   5 A  139  LEU PRO VAL VAL ILE THR VAL TYR GLU ASP LYS SER PHE          
+SEQRES   6 A  139  THR PHE ILE ILE LYS THR PRO PRO ALA SER PHE LEU LEU          
+SEQRES   7 A  139  LYS LYS ALA ALA GLY ILE GLU LYS GLY SER SER GLU PRO          
+SEQRES   8 A  139  LYS ARG LYS ILE VAL GLY LYS VAL THR ARG LYS GLN ILE          
+SEQRES   9 A  139  GLU GLU ILE ALA LYS THR LYS MET PRO ASP LEU ASN ALA          
+SEQRES  10 A  139  ASN SER LEU GLU ALA ALA MET LYS ILE ILE GLU GLY THR          
+SEQRES  11 A  139  ALA LYS SER MET GLY ILE GLU VAL VAL                          
+SEQRES   1 B   32  ALA ALA ASP PHE ASP GLU ASN ILE MET LEU LYS TYR LEU          
+SEQRES   2 B   32  GLU GLY GLU GLU PRO THR GLU GLU GLU LEU VAL ALA ALA          
+SEQRES   3 B   32  ILE ARG LYS GLY THR ILE                                      
+SEQRES   1 C   68  MET ARG VAL GLU VAL THR THR PRO GLU GLU TYR MET GLY          
+SEQRES   2 C   68  ASP VAL ILE GLY ASP LEU ASN ALA ARG ARG GLY GLN ILE          
+SEQRES   3 C   68  LEU GLY MET GLU PRO ARG GLY ASN ALA GLN VAL ILE ARG          
+SEQRES   4 C   68  ALA PHE VAL PRO LEU ALA GLU MET PHE GLY TYR ALA THR          
+SEQRES   5 C   68  ASP LEU ARG SER LYS THR GLN GLY ARG GLY SER PHE VAL          
+SEQRES   6 C   68  MET PHE PHE                                                  
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      1.000000  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  1.000000  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  1.000000        0.00000                         
+ATOM      1  CA  GLN A   1     -43.960  24.880 -90.485  1.00 79.42           C  
+ATOM      2  CA  ILE A   2     -44.135  22.351 -87.586  1.00 80.39           C  
+ATOM      3  CA  LYS A   3     -46.337  19.467 -86.315  1.00 77.55           C  
+ATOM      4  CA  LEU A   4     -47.217  18.238 -82.778  1.00 77.13           C  
+ATOM      5  CA  GLN A   5     -50.024  16.282 -81.011  1.00 82.10           C  
+ATOM      6  CA  LEU A   6     -51.744  18.618 -78.503  1.00 79.90           C  
+ATOM      7  CA  PRO A   7     -54.484  17.759 -75.949  1.00 76.54           C  
+ATOM      8  CA  ALA A   8     -57.731  19.624 -76.880  1.00 82.83           C  
+ATOM      9  CA  GLY A   9     -58.980  22.275 -74.393  1.00 98.24           C  
+ATOM     10  CA  LYS A  10     -55.682  22.368 -72.477  1.00 98.41           C  
+ATOM     11  CA  ALA A  11     -52.465  24.024 -73.749  1.00 96.77           C  
+ATOM     12  CA  THR A  12     -49.625  26.319 -72.434  1.00 98.62           C  
+ATOM     13  CA  PRO A  13     -47.258  23.893 -70.544  1.00100.00           C  
+ATOM     14  CA  ALA A  14     -43.583  23.891 -71.535  1.00100.00           C  
+ATOM     15  CA  PRO A  15     -42.441  20.228 -72.115  1.00100.00           C  
+ATOM     16  CA  PRO A  16     -45.487  19.429 -74.355  1.00100.00           C  
+ATOM     17  CA  VAL A  17     -45.897  22.867 -76.037  1.00 95.98           C  
+ATOM     18  CA  GLY A  18     -43.708  25.891 -75.190  1.00 94.07           C  
+ATOM     19  CA  PRO A  19     -40.043  25.364 -76.337  1.00 93.06           C  
+ATOM     20  CA  ALA A  20     -40.922  22.930 -79.180  1.00 96.04           C  
+ATOM     21  CA  LEU A  21     -42.564  25.494 -81.515  1.00 92.03           C  
+ATOM     22  CA  GLY A  22     -41.564  28.567 -79.432  1.00 88.78           C  
+ATOM     23  CA  GLN A  23     -37.942  28.371 -80.665  1.00 91.11           C  
+ATOM     24  CA  HIS A  24     -39.178  28.883 -84.273  1.00 94.53           C  
+ATOM     25  CA  GLY A  25     -40.851  32.122 -83.045  1.00 90.69           C  
+ATOM     26  CA  VAL A  26     -44.484  31.190 -82.220  1.00 90.50           C  
+ATOM     27  CA  ASN A  27     -46.320  33.505 -79.789  1.00 94.89           C  
+ATOM     28  CA  ILE A  28     -47.283  30.705 -77.352  1.00 97.32           C  
+ATOM     29  CA  MET A  29     -50.204  32.444 -75.569  1.00 99.82           C  
+ATOM     30  CA  GLU A  30     -52.013  33.337 -78.815  1.00 92.68           C  
+ATOM     31  CA  PHE A  31     -51.709  29.751 -80.123  1.00 95.14           C  
+ATOM     32  CA  CYS A  32     -52.957  28.224 -76.846  1.00 95.64           C  
+ATOM     33  CA  LYS A  33     -56.133  30.332 -76.657  1.00 96.22           C  
+ATOM     34  CA  ARG A  34     -56.897  30.022 -80.410  1.00 89.97           C  
+ATOM     35  CA  PHE A  35     -56.368  26.217 -80.309  1.00 82.17           C  
+ATOM     36  CA  ASN A  36     -58.422  25.629 -77.126  1.00 86.52           C  
+ATOM     37  CA  ALA A  37     -61.381  27.580 -78.621  1.00 84.79           C  
+ATOM     38  CA  GLU A  38     -62.253  25.367 -81.637  1.00 90.10           C  
+ATOM     39  CA  THR A  39     -60.957  22.150 -79.990  1.00 91.97           C  
+ATOM     40  CA  ALA A  40     -63.790  22.596 -77.432  1.00 93.30           C  
+ATOM     41  CA  ASP A  41     -65.915  21.098 -80.271  1.00100.00           C  
+ATOM     42  CA  LYS A  42     -63.844  17.881 -79.922  1.00 99.10           C  
+ATOM     43  CA  ALA A  43     -63.168  18.212 -76.170  1.00 93.02           C  
+ATOM     44  CA  GLY A  44     -60.825  15.834 -74.299  1.00 90.09           C  
+ATOM     45  CA  MET A  45     -59.678  13.986 -77.458  1.00 88.05           C  
+ATOM     46  CA  ILE A  46     -56.065  14.938 -78.375  1.00 76.40           C  
+ATOM     47  CA  LEU A  47     -55.112  15.967 -81.954  1.00 75.31           C  
+ATOM     48  CA  PRO A  48     -52.166  16.819 -84.268  1.00 73.63           C  
+ATOM     49  CA  VAL A  49     -52.111  20.462 -85.358  1.00 70.19           C  
+ATOM     50  CA  VAL A  50     -49.890  21.770 -88.185  1.00 73.93           C  
+ATOM     51  CA  ILE A  51     -48.621  25.268 -87.276  1.00 77.59           C  
+ATOM     52  CA  THR A  52     -47.620  27.335 -90.340  1.00 82.77           C  
+ATOM     53  CA  VAL A  53     -45.383  30.206 -89.164  1.00 85.45           C  
+ATOM     54  CA  TYR A  54     -44.659  33.273 -91.323  1.00 88.03           C  
+ATOM     55  CA  GLU A  55     -41.573  35.538 -91.426  1.00 86.30           C  
+ATOM     56  CA  ASP A  56     -43.344  38.197 -89.271  1.00 83.65           C  
+ATOM     57  CA  LYS A  57     -43.856  35.604 -86.445  1.00 89.76           C  
+ATOM     58  CA  SER A  58     -47.614  35.405 -87.212  1.00 87.60           C  
+ATOM     59  CA  PHE A  59     -49.170  31.969 -87.892  1.00 86.65           C  
+ATOM     60  CA  THR A  60     -52.259  29.947 -88.893  1.00 79.66           C  
+ATOM     61  CA  PHE A  61     -52.979  26.202 -88.453  1.00 76.33           C  
+ATOM     62  CA  ILE A  62     -55.218  23.189 -89.269  1.00 70.90           C  
+ATOM     63  CA  ILE A  63     -56.649  20.421 -87.015  1.00 65.88           C  
+ATOM     64  CA  LYS A  64     -56.648  16.548 -87.149  1.00 49.56           C  
+ATOM     65  CA  THR A  65     -57.404  13.454 -84.955  1.00 48.54           C  
+ATOM     66  CA  PRO A  66     -56.408  11.762 -81.585  1.00 39.98           C  
+ATOM     67  CA  PRO A  67     -54.198   8.768 -80.552  1.00 35.21           C  
+ATOM     68  CA  ALA A  68     -55.598   5.259 -79.960  1.00 29.59           C  
+ATOM     69  CA  SER A  69     -54.752   4.723 -76.261  1.00 31.31           C  
+ATOM     70  CA  PHE A  70     -56.395   7.965 -75.021  1.00 34.16           C  
+ATOM     71  CA  LEU A  71     -59.590   7.063 -76.916  1.00 42.01           C  
+ATOM     72  CA  LEU A  72     -59.581   3.508 -75.468  1.00 34.91           C  
+ATOM     73  CA  LYS A  73     -59.100   4.801 -71.871  1.00 38.30           C  
+ATOM     74  CA  LYS A  74     -62.016   7.248 -72.354  1.00 38.23           C  
+ATOM     75  CA  ALA A  75     -64.248   4.780 -74.293  1.00 43.40           C  
+ATOM     76  CA  ALA A  76     -63.881   2.019 -71.674  1.00 44.61           C  
+ATOM     77  CA  GLY A  77     -64.748   4.750 -69.123  1.00 37.87           C  
+ATOM     78  CA  ILE A  78     -61.553   4.218 -67.090  1.00 37.65           C  
+ATOM     79  CA  GLU A  79     -58.998   6.784 -65.910  1.00 47.13           C  
+ATOM     80  CA  LYS A  80     -55.951   4.534 -66.488  1.00 38.76           C  
+ATOM     81  CA  GLY A  81     -54.986   1.248 -68.193  1.00 33.53           C  
+ATOM     82  CA  SER A  82     -53.815  -2.019 -66.595  1.00 31.79           C  
+ATOM     83  CA  SER A  83     -50.741  -2.393 -64.364  1.00 35.62           C  
+ATOM     84  CA  GLU A  84     -50.368  -5.856 -65.955  1.00 38.55           C  
+ATOM     85  CA  PRO A  85     -52.276  -6.048 -69.306  1.00 37.71           C  
+ATOM     86  CA  LYS A  86     -53.838  -9.460 -70.205  1.00 36.65           C  
+ATOM     87  CA  ARG A  87     -53.145 -10.850 -66.686  1.00 29.80           C  
+ATOM     88  CA  LYS A  88     -55.403  -8.060 -65.344  1.00 30.94           C  
+ATOM     89  CA  ILE A  89     -58.278  -6.639 -67.432  1.00 31.34           C  
+ATOM     90  CA  VAL A  90     -59.341  -3.203 -66.100  1.00 29.74           C  
+ATOM     91  CA  GLY A  91     -62.016  -2.308 -68.696  1.00 35.16           C  
+ATOM     92  CA  LYS A  92     -63.745  -3.250 -71.955  1.00 40.57           C  
+ATOM     93  CA  VAL A  93     -65.184  -1.612 -75.096  1.00 41.33           C  
+ATOM     94  CA  THR A  94     -67.655  -2.853 -77.712  1.00 42.43           C  
+ATOM     95  CA  ARG A  95     -66.436  -3.951 -81.165  1.00 49.44           C  
+ATOM     96  CA  LYS A  96     -68.640  -1.006 -82.277  1.00 51.76           C  
+ATOM     97  CA  GLN A  97     -66.598   1.409 -80.099  1.00 44.08           C  
+ATOM     98  CA  ILE A  98     -63.506  -0.097 -81.804  1.00 35.57           C  
+ATOM     99  CA  GLU A  99     -65.192   0.904 -85.121  1.00 53.52           C  
+ATOM    100  CA  GLU A 100     -65.744   4.486 -83.819  1.00 52.07           C  
+ATOM    101  CA  ILE A 101     -62.123   4.793 -82.606  1.00 39.41           C  
+ATOM    102  CA  ALA A 102     -60.907   3.384 -85.965  1.00 42.41           C  
+ATOM    103  CA  LYS A 103     -63.108   5.967 -87.780  1.00 44.59           C  
+ATOM    104  CA  THR A 104     -61.544   8.789 -85.731  1.00 42.63           C  
+ATOM    105  CA  LYS A 105     -57.962   7.511 -86.174  1.00 42.77           C  
+ATOM    106  CA  MET A 106     -58.397   6.683 -89.936  1.00 41.26           C  
+ATOM    107  CA  PRO A 107     -56.560   9.735 -91.505  1.00 29.51           C  
+ATOM    108  CA  ASP A 108     -53.462   9.087 -89.327  1.00 36.41           C  
+ATOM    109  CA  LEU A 109     -53.580   5.312 -90.073  1.00 33.57           C  
+ATOM    110  CA  ASN A 110     -51.866   3.642 -93.026  1.00 33.28           C  
+ATOM    111  CA  ALA A 111     -54.772   1.080 -92.865  1.00 41.18           C  
+ATOM    112  CA  ASN A 112     -56.405   0.690 -96.300  1.00 42.41           C  
+ATOM    113  CA  SER A 113     -59.490  -1.186 -95.003  1.00 43.86           C  
+ATOM    114  CA  LEU A 114     -61.816  -0.504 -92.049  1.00 44.83           C  
+ATOM    115  CA  GLU A 115     -61.260  -4.108 -90.878  1.00 47.46           C  
+ATOM    116  CA  ALA A 116     -57.506  -3.396 -90.796  1.00 38.97           C  
+ATOM    117  CA  ALA A 117     -58.094  -0.052 -89.025  1.00 36.26           C  
+ATOM    118  CA  MET A 118     -60.115  -1.760 -86.245  1.00 34.84           C  
+ATOM    119  CA  LYS A 119     -57.408  -4.457 -85.921  1.00 28.15           C  
+ATOM    120  CA  ILE A 120     -54.758  -1.726 -85.251  1.00 29.89           C  
+ATOM    121  CA  ILE A 121     -56.896  -0.307 -82.402  1.00 27.70           C  
+ATOM    122  CA  GLU A 122     -57.531  -3.856 -81.071  1.00 28.43           C  
+ATOM    123  CA  GLY A 123     -53.716  -4.164 -80.907  1.00 21.91           C  
+ATOM    124  CA  THR A 124     -53.635  -1.114 -78.592  1.00 25.94           C  
+ATOM    125  CA  ALA A 125     -56.658  -2.413 -76.576  1.00 26.64           C  
+ATOM    126  CA  LYS A 126     -54.869  -5.744 -75.957  1.00 27.21           C  
+ATOM    127  CA  SER A 127     -51.623  -4.040 -74.813  1.00 33.04           C  
+ATOM    128  CA  MET A 128     -53.534  -2.004 -72.134  1.00 25.82           C  
+ATOM    129  CA  GLY A 129     -55.853  -4.751 -70.778  1.00 22.84           C  
+ATOM    130  CA  ILE A 130     -59.128  -3.526 -72.340  1.00 29.45           C  
+ATOM    131  CA  GLU A 131     -61.269  -6.365 -73.776  1.00 39.24           C  
+ATOM    132  CA  VAL A 132     -63.509  -6.276 -76.871  1.00 52.55           C  
+ATOM    133  CA  VAL A 133     -67.157  -7.468 -76.621  1.00 58.40           C  
+TER     134      VAL A 133                                                      
+ATOM    135  CA  ALA B 220     -29.123  59.006 -86.938  1.00 28.39           C  
+ATOM    136  CA  ALA B 221     -31.253  58.561 -90.102  1.00 28.39           C  
+ATOM    137  CA  ASP B 222     -33.486  55.945 -88.397  1.00 28.39           C  
+ATOM    138  CA  PHE B 223     -34.513  57.928 -85.283  1.00 28.39           C  
+ATOM    139  CA  ASP B 224     -34.472  61.385 -86.963  1.00 28.39           C  
+ATOM    140  CA  GLU B 225     -37.879  61.534 -88.716  1.00 28.39           C  
+ATOM    141  CA  ASN B 226     -36.897  64.317 -91.178  1.00 28.39           C  
+ATOM    142  CA  ILE B 227     -34.131  62.110 -92.632  1.00 28.39           C  
+ATOM    143  CA  MET B 228     -36.082  58.807 -92.252  1.00 28.39           C  
+ATOM    144  CA  LEU B 229     -38.779  59.758 -94.815  1.00 28.39           C  
+ATOM    145  CA  LYS B 230     -36.241  61.108 -97.374  1.00 28.39           C  
+ATOM    146  CA  TYR B 231     -33.903  58.102 -96.846  1.00 28.39           C  
+ATOM    147  CA  LEU B 232     -36.570  55.396 -97.351  1.00 28.39           C  
+ATOM    148  CA  GLU B 233     -38.153  57.310-100.283  1.00 28.39           C  
+ATOM    149  CA  GLY B 234     -34.960  58.232-102.203  1.00 28.39           C  
+ATOM    150  CA  GLU B 235     -33.781  61.791-101.426  1.00 28.39           C  
+ATOM    151  CA  GLU B 236     -30.628  63.408 -99.968  1.00 28.39           C  
+ATOM    152  CA  PRO B 237     -31.274  65.200 -96.603  1.00 28.39           C  
+ATOM    153  CA  THR B 238     -29.783  68.666 -95.943  1.00 28.39           C  
+ATOM    154  CA  GLU B 239     -26.645  69.555 -93.945  1.00 28.39           C  
+ATOM    155  CA  GLU B 240     -28.939  70.961 -91.205  1.00 28.39           C  
+ATOM    156  CA  GLU B 241     -30.814  67.627 -90.948  1.00 28.39           C  
+ATOM    157  CA  LEU B 242     -27.558  65.594 -90.951  1.00 28.39           C  
+ATOM    158  CA  VAL B 243     -25.773  67.645 -88.225  1.00 28.39           C  
+ATOM    159  CA  ALA B 244     -28.908  67.660 -86.006  1.00 28.39           C  
+ATOM    160  CA  ALA B 245     -29.476  63.896 -86.507  1.00 28.39           C  
+ATOM    161  CA  ILE B 246     -25.814  62.936 -85.805  1.00 28.39           C  
+ATOM    162  CA  ARG B 247     -25.939  64.998 -82.576  1.00 28.39           C  
+ATOM    163  CA  LYS B 248     -29.318  63.336 -81.788  1.00 28.39           C  
+ATOM    164  CA  GLY B 249     -27.684  59.899 -82.416  1.00 28.39           C  
+ATOM    165  CA  THR B 250     -26.304  59.890 -78.832  1.00 28.39           C  
+ATOM    166  CA  ILE B 251     -29.517  60.973 -76.975  1.00 28.39           C  
+TER     167      ILE B 251                                                      
+ATOM    168  CA  MET C 606     -39.723  19.802 -54.359  1.00 48.99           C  
+ATOM    169  CA  ARG C 607     -39.070  23.109 -55.908  1.00 48.99           C  
+ATOM    170  CA  VAL C 608     -35.264  23.521 -56.383  1.00 48.99           C  
+ATOM    171  CA  GLU C 609     -34.373  26.739 -58.286  1.00 48.99           C  
+ATOM    172  CA  VAL C 610     -30.592  27.273 -58.188  1.00 48.99           C  
+ATOM    173  CA  THR C 611     -30.039  31.066 -58.517  1.00 48.99           C  
+ATOM    174  CA  THR C 612     -26.373  31.362 -59.669  1.00 48.99           C  
+ATOM    175  CA  PRO C 613     -25.053  34.294 -61.809  1.00 48.99           C  
+ATOM    176  CA  GLU C 614     -23.273  33.338 -65.073  1.00 48.99           C  
+ATOM    177  CA  GLU C 615     -20.808  30.728 -63.654  1.00 48.99           C  
+ATOM    178  CA  TYR C 616     -23.506  28.007 -64.070  1.00 48.99           C  
+ATOM    179  CA  MET C 617     -22.848  24.811 -66.118  1.00 48.99           C  
+ATOM    180  CA  GLY C 618     -20.821  22.996 -63.460  1.00 48.99           C  
+ATOM    181  CA  ASP C 619     -23.807  24.025 -61.283  1.00 48.99           C  
+ATOM    182  CA  VAL C 620     -26.334  22.623 -63.829  1.00 48.99           C  
+ATOM    183  CA  ILE C 621     -24.603  19.223 -64.123  1.00 48.99           C  
+ATOM    184  CA  GLY C 622     -23.752  19.397 -60.380  1.00 48.99           C  
+ATOM    185  CA  ASP C 623     -27.481  19.504 -59.450  1.00 48.99           C  
+ATOM    186  CA  LEU C 624     -29.227  17.378 -62.110  1.00 48.99           C  
+ATOM    187  CA  ASN C 625     -26.725  14.559 -61.320  1.00 48.99           C  
+ATOM    188  CA  ALA C 626     -28.091  14.461 -57.726  1.00 48.99           C  
+ATOM    189  CA  ARG C 627     -31.625  13.793 -59.018  1.00 48.99           C  
+ATOM    190  CA  ARG C 628     -33.352  14.519 -62.355  1.00 48.99           C  
+ATOM    191  CA  GLY C 629     -34.839  17.980 -62.953  1.00 48.99           C  
+ATOM    192  CA  GLN C 630     -34.570  19.604 -66.400  1.00 48.99           C  
+ATOM    193  CA  ILE C 631     -37.947  21.472 -66.290  1.00 48.99           C  
+ATOM    194  CA  LEU C 632     -36.700  24.524 -68.281  1.00 48.99           C  
+ATOM    195  CA  GLY C 633     -33.687  24.912 -65.959  1.00 48.99           C  
+ATOM    196  CA  MET C 634     -32.579  28.441 -66.971  1.00 48.99           C  
+ATOM    197  CA  GLU C 635     -34.154  31.857 -66.231  1.00 48.99           C  
+ATOM    198  CA  PRO C 636     -31.951  35.013 -65.936  1.00 48.99           C  
+ATOM    199  CA  ARG C 637     -33.331  36.652 -62.762  1.00 48.99           C  
+ATOM    200  CA  GLY C 638     -31.279  39.774 -63.495  1.00 48.99           C  
+ATOM    201  CA  ASN C 639     -27.782  38.295 -63.033  1.00 48.99           C  
+ATOM    202  CA  ALA C 640     -28.705  35.125 -61.077  1.00 48.99           C  
+ATOM    203  CA  GLN C 641     -29.574  32.239 -63.441  1.00 48.99           C  
+ATOM    204  CA  VAL C 642     -32.240  30.103 -61.685  1.00 48.99           C  
+ATOM    205  CA  ILE C 643     -31.725  26.432 -62.642  1.00 48.99           C  
+ATOM    206  CA  ARG C 644     -35.159  24.894 -61.973  1.00 48.99           C  
+ATOM    207  CA  ALA C 645     -34.884  21.230 -60.887  1.00 48.99           C  
+ATOM    208  CA  PHE C 646     -35.861  18.745 -58.120  1.00 48.99           C  
+ATOM    209  CA  VAL C 647     -33.401  17.269 -55.551  1.00 48.99           C  
+ATOM    210  CA  PRO C 648     -34.953  15.103 -52.727  1.00 48.99           C  
+ATOM    211  CA  LEU C 649     -34.141  14.936 -48.997  1.00 48.99           C  
+ATOM    212  CA  ALA C 650     -31.390  12.256 -49.168  1.00 48.99           C  
+ATOM    213  CA  GLU C 651     -29.369  14.423 -51.589  1.00 48.99           C  
+ATOM    214  CA  MET C 652     -30.014  17.623 -49.551  1.00 48.99           C  
+ATOM    215  CA  PHE C 653     -27.867  16.009 -46.812  1.00 48.99           C  
+ATOM    216  CA  GLY C 654     -24.841  17.236 -48.786  1.00 48.99           C  
+ATOM    217  CA  TYR C 655     -26.319  19.763 -51.256  1.00 48.99           C  
+ATOM    218  CA  ALA C 656     -27.486  21.994 -48.341  1.00 48.99           C  
+ATOM    219  CA  THR C 657     -23.743  22.774 -47.794  1.00 48.99           C  
+ATOM    220  CA  ASP C 658     -22.049  22.013 -51.147  1.00 48.99           C  
+ATOM    221  CA  LEU C 659     -23.859  24.669 -53.258  1.00 48.99           C  
+ATOM    222  CA  ARG C 660     -21.125  27.129 -52.161  1.00 48.99           C  
+ATOM    223  CA  SER C 661     -18.496  24.472 -53.054  1.00 48.99           C  
+ATOM    224  CA  LYS C 662     -19.856  24.255 -56.643  1.00 48.99           C  
+ATOM    225  CA  THR C 663     -20.737  27.948 -57.198  1.00 48.99           C  
+ATOM    226  CA  GLN C 664     -18.103  29.748 -55.037  1.00 48.99           C  
+ATOM    227  CA  GLY C 665     -19.370  33.245 -55.980  1.00 48.99           C  
+ATOM    228  CA  ARG C 666     -23.009  33.430 -54.804  1.00 48.99           C  
+ATOM    229  CA  GLY C 667     -24.443  29.950 -54.103  1.00 48.99           C  
+ATOM    230  CA  SER C 668     -28.175  30.731 -53.716  1.00 48.99           C  
+ATOM    231  CA  PHE C 669     -31.370  28.700 -54.227  1.00 48.99           C  
+ATOM    232  CA  VAL C 670     -35.037  28.502 -53.129  1.00 48.99           C  
+ATOM    233  CA  MET C 671     -37.405  25.529 -52.620  1.00 32.02           C  
+ATOM    234  CA  PHE C 672     -40.768  24.701 -51.023  1.00 32.02           C  
+ATOM    235  CA  PHE C 673     -43.078  21.694 -50.521  1.00 32.02           C  
+TER     236      PHE C 673                                                      
+MASTER      159    0    0    0    0    0    0    6  233    3    0   20          
+END                                                                             
