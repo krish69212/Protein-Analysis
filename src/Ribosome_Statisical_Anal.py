@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Define the file path for the dataset
-file_path = r"C:\Users\Krish\Documents\GitHub\Protein-Analysis-1\rcsb_statistical_data_enhanced.xlsx"
+df = pd.read_excel("C:\\Users\\Krish\\Documents\\GitHub\\Protein-Analysis-1\\rcsb_statistical_data_enhanced.xlsx")
 
 # Load the dataset and handle potential file errors
 try:
