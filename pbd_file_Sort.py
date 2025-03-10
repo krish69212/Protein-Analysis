@@ -2,7 +2,7 @@ import os
 
 # Define the directory containing PDB files
 pdb_dir = "Protein-Analysis-1\pdb_files"
-size_limit = 6000 * 1024  # Convert KB to bytes (6000 KB = 6MB)
+size_limit = 1500 * 1024  # Convert KB to bytes (4000 KB = 6MB)
 
 # Iterate over files in the directory
 for filename in os.listdir(pdb_dir):
