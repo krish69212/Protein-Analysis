@@ -2,4 +2,4 @@
 
 This project uses PyPDB to search for ribosome structures in the Protein Data Bank (PDB) and perform statistical analysis on the results.
 
-Uses Pandas and RCSB PDB API
+Uses Pandas and RCSB PDB API and MathPlotLib and seaborn
